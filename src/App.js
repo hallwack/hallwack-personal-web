@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "./assets/img/ava2.jpg";
+import NavList from "./components/NavList";
 
 function App() {
   return (
@@ -8,13 +9,11 @@ function App() {
         <div className="container mx-auto flex flex-row justify-between items-center">
           <h1 className="text-4xl font-bold text-sky-700">Raihan Adam</h1>
           <div>
-            <ul className="flex flex-row items-center space-x-8 text-sky-800">
-              <li className="bg-gradient-to-r from-sky-400 to-sky-400 bg-[length:0px_3px] bg-left-bottom bg-no-repeat transition-[background-size] duration-[400ms] hover:bg-[length:100%_3px]">
-                Home
-              </li>
-              <li>College</li>
-              <li>Skills</li>
-              <li>Contact Me</li>
+            <ul className="flex flex-row items-center space-x-8 text-sky-500">
+              <NavList href="/">Home</NavList>
+              <NavList href="college">College</NavList>
+              <NavList href="skills">Skills</NavList>
+              <NavList href="contact">Contact Me</NavList>
             </ul>
           </div>
         </div>
