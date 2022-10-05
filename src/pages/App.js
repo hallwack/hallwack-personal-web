@@ -1,23 +1,11 @@
 import React from "react";
-import avatar from "./assets/img/ava2.jpg";
-import NavList from "./components/NavList";
+import avatar from "../assets/img/ava2.jpg";
+import Navbar from "../components/Navbar";
 
 function App() {
   return (
     <div className="flex flex-col bg-sky-50 h-full">
-      <nav className="py-14">
-        <div className="container mx-auto flex flex-row justify-between items-center">
-          <h1 className="text-4xl font-bold text-sky-700">Raihan Adam</h1>
-          <div>
-            <ul className="flex flex-row items-center space-x-8 text-sky-500">
-              <NavList href="/">Home</NavList>
-              <NavList href="college">College</NavList>
-              <NavList href="skills">Skills</NavList>
-              <NavList href="contact">Contact Me</NavList>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
       <section className="container mx-auto px-12 flex justify-between items-center flex-grow">
         <div className="flex flex-col space-y-2 w-1/2">
           <h2 className="text-5xl text-sky-800 font-bold">
