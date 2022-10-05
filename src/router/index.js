@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
+import Achievement from "../pages/Achievement";
+import App from "../pages/App";
 
 export const router = createBrowserRouter([
   {
@@ -8,5 +9,12 @@ export const router = createBrowserRouter([
   },
   {
     path: "college",
+  },
+  {
+    path: "achievement",
+    element: <Achievement />,
+  },
+  {
+    path: "skills",
   },
 ]);
