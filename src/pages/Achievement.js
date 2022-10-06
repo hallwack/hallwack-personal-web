@@ -18,7 +18,8 @@ function Achievement() {
               key={key}
               title={achievement.title}
               description={achievement.description}
-              link={achievement.link} />
+              link={achievement.link}
+            />
           ))}
         </div>
       </section>
