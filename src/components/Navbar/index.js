@@ -11,8 +11,8 @@ function Navbar() {
             <NavList href="/">Home</NavList>
             <NavList href="/college">College</NavList>
             <NavList href="/achievement">Achievement</NavList>
-            <NavList href="skills">Skills</NavList>
-            <NavList href="contact">Contact Me</NavList>
+            <NavList href="/skills">Skills</NavList>
+            <NavList href="/contact">Contact Me</NavList>
           </ul>
         </div>
       </div>
