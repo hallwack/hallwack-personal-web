@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Achievement from "../pages/Achievement";
 import App from "../pages/App";
+import Contact from "../pages/Contact";
 import Skills from "../pages/Skills";
 
 export const router = createBrowserRouter([
@@ -19,4 +20,8 @@ export const router = createBrowserRouter([
     path: "skills",
     element: <Skills />
   },
+  {
+    path: "contact",
+    element: <Contact />
+  }
 ]);
