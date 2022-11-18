@@ -1,6 +1,7 @@
 import React from "react";
 import {
   SiFacebook,
+  SiGmail,
   SiInstagram,
   SiTelegram,
   SiTwitter,
@@ -33,6 +34,9 @@ function Contact() {
             </ContactCard>
             <ContactCard link="https://wa.me/6281278780940">
               <SiWhatsapp className="fill-sky-800" size={48} />
+            </ContactCard>
+            <ContactCard link="mailto:hallwack.id@gmail.com">
+              <SiGmail className="fill-sky-800" size={48} />
             </ContactCard>
           </div>
         </div>
