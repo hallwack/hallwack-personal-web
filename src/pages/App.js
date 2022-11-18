@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <section className="container mx-auto px-12 flex justify-between items-center flex-grow">
         <div className="flex flex-col space-y-2 w-1/2">
-          <h2 className="text-5xl text-sky-800 font-bold">
+          <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-purple-700 text-5xl font-bold">
             Hi, I'm Raihan Adam
           </h2>
           <p className="text-slate-600 text-lg font-medium">
@@ -20,7 +20,7 @@ function App() {
           </button>
         </div>
         <div>
-          <img src={avatar} className="w-96 h-96 rounded-full object-cover" />
+          <img src={avatar} className="w-96 h-96 rounded-full object-cover" alt="Raihan Adam" />
         </div>
       </section>
     </div>
