@@ -20,3 +20,16 @@ export const achievements = [
     link: "https://www.dicoding.com/certificates/4EXG501LDXRL",
   },
 ];
+
+export const portofolios = [
+  {
+    title: "Hairnerds Studio",
+    description: "Re-templating website with new layout and style",
+    link: "https://hairnerds.id",
+  },
+  {
+    title: "Neovim Config",
+    description: "Neovim configuration from scratch",
+    link: "https://www.dicoding.com/certificates/81P21M8YYZOY",
+  },
+];
