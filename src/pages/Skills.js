@@ -16,13 +16,13 @@ import {
 
 function Skills() {
   return (
-    <div className="flex flex-col bg-sky-50 h-full">
+    <div className="flex flex-col bg-sky-50 min-h-screen">
       <Navbar />
-      <section className="container mx-auto px-12 flex flex-col gap-8 justify-center items-center flex-grow">
+      <section className="container mx-auto px-12 py-4 flex flex-col gap-8 justify-center items-center flex-grow">
         <h1 className="text-4xl font-bold text-sky-800 text-center">Skills</h1>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 justify-center">
           <h2 className="text-center text-sky-700 text-lg">Language</h2>
-          <div className="flex gap-12">
+          <div className="flex gap-12 flex-wrap justify-center">
             <div className="bg-sky-200 p-6 rounded-lg flex max-w-sm gap-4">
               <SiJavascript className="fill-sky-800" size={48} />
             </div>
@@ -34,9 +34,9 @@ function Skills() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 justify-center">
           <h2 className="text-center text-sky-700 text-lg">Framework</h2>
-          <div className="flex gap-12">
+          <div className="flex gap-12 flex-wrap justify-center">
             <div className="bg-sky-200 p-6 rounded-lg flex max-w-sm gap-4">
               <SiLaravel className="fill-sky-800" size={48} />
             </div>
@@ -51,9 +51,9 @@ function Skills() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 justify-center">
           <h2 className="text-center text-sky-700 text-lg">Tools</h2>
-          <div className="flex gap-12">
+          <div className="flex gap-12 flex-wrap justify-center">
             <div className="bg-sky-200 p-6 rounded-lg flex max-w-sm gap-4">
               <SiFigma className="fill-sky-800" size={48} />
             </div>

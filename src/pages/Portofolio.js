@@ -5,13 +5,13 @@ import { portofolios } from "../data/data";
 
 const Portofolio = () => {
   return (
-    <div className="flex flex-col bg-sky-50 h-full">
+    <div className="flex flex-col bg-sky-50 min-h-screen">
       <Navbar />
-      <section className="container mx-auto px-12 flex flex-col gap-8 justify-center items-center flex-grow">
+      <section className="container mx-auto px-12 py-4 flex flex-col gap-8 justify-center items-center flex-grow">
         <h1 className="text-4xl font-bold text-sky-800 text-center">
-          Portofolio
+          Projects
         </h1>
-        <div className="grid grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-12 mx-auto">
           {portofolios.map((porto, key) => (
             <PortofolioCard
               key={key}

@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "achievement",
+    path: "achievements",
     element: <Achievement />,
   },
   {
@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
     element: <Skills />
   },
   {
-    path: "portofolios",
+    path: "projects",
     element: <Portofolio />
   },
   {

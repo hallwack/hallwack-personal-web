@@ -4,10 +4,10 @@ import Navbar from "../components/Navbar";
 
 function App() {
   return (
-    <div className="flex flex-col bg-sky-50 h-full">
+    <div className="flex flex-col bg-sky-50 min-h-screen">
       <Navbar />
       <section className="container mx-auto px-12 flex justify-between items-center flex-grow">
-        <div className="flex flex-col space-y-2 w-1/2">
+        <div className="flex flex-col space-y-2 w-full lg:w-1/2">
           <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-purple-700 text-5xl font-bold">
             Hi, I'm Raihan Adam
           </h2>
@@ -19,7 +19,7 @@ function App() {
             Know More
           </button>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <img src={avatar} className="w-96 h-96 rounded-full object-cover" alt="Raihan Adam" />
         </div>
       </section>

@@ -3,11 +3,11 @@ import { FaAward, FaExternalLinkAlt } from "react-icons/fa";
 
 function AchievementCard({ title, description, link }) {
   return (
-    <div className="bg-sky-200 p-8 rounded-lg flex max-w-sm gap-4">
+    <div className="bg-sky-200 p-8 rounded-lg flex flex-col items-center lg:flex-row lg:items-start max-w-sm gap-4">
       <div className="mr-4">
         <FaAward className="fill-sky-800" size={48} />
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col justify-between w-full h-full">
         <h2 className="text-sky-800 font-semibold text-2xl">{title}</h2>
         <p className="text-slate-600 mb-6">{description}</p>
         <a
