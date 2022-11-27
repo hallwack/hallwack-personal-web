@@ -12,14 +12,14 @@ import Navbar from "../components/Navbar";
 
 function Contact() {
   return (
-    <div className="flex flex-col bg-sky-50 h-full">
+    <div className="flex flex-col bg-sky-50 min-h-screen">
       <Navbar />
       <section className="container mx-auto px-12 flex flex-col gap-8 justify-center items-center flex-grow">
         <h1 className="text-4xl font-bold text-sky-800 text-center">
           Contact Me
         </h1>
-        <div className="flex flex-col gap-4">
-          <div className="flex gap-12">
+        <div className="flex flex-col gap-4 justify-center">
+          <div className="flex gap-12 flex-wrap justify-center">
             <ContactCard link="https://instagram.com/raihanadamstagram">
               <SiInstagram className="fill-sky-800" size={48} />
             </ContactCard>
