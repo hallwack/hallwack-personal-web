@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import avatar from "../assets/img/ava2.jpg";
 import Navbar from "../components/Navbar";
 
@@ -15,9 +16,9 @@ function App() {
             A learner, interesting about a new thing, especially about web and
             mobile development.
           </p>
-          <button className="px-6 py-2 rounded-lg w-auto self-start text-slate-700 bg-sky-200 text-lg font-semibold hover:bg-sky-700 hover:text-slate-100 transition hover:duration-300 duration-300">
+          <NavLink to="/about" className="px-6 py-2 rounded-lg w-auto self-start text-slate-700 bg-sky-200 text-lg font-semibold hover:bg-sky-700 hover:text-slate-100 transition hover:duration-300 duration-300">
             Know More
-          </button>
+          </NavLink>
         </div>
         <div className="hidden lg:block">
           <img src={avatar} className="w-96 h-96 rounded-full object-cover" alt="Raihan Adam" />

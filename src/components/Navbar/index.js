@@ -8,7 +8,9 @@ function Navbar() {
   return (
     <nav className="py-14 px-8">
       <div className="container mx-auto flex flex-row justify-between items-center gap-4 lg:gap-0">
-        <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-purple-700">Raihan Adam</h1>
+        <NavLink to="/">
+          <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-purple-700">Raihan Adam</h1>
+        </NavLink>
         <div className="lg:block hidden">
           <ul className="flex flex-row items-center space-x-12 text-sky-500">
             <NavList href="/">Home</NavList>

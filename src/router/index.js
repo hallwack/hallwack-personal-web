@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import About from "../pages/About";
 import Achievement from "../pages/Achievement";
 import App from "../pages/App";
 import Contact from "../pages/Contact";
@@ -9,6 +10,10 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "about",
+    element: <About />,
   },
   {
     path: "achievements",
