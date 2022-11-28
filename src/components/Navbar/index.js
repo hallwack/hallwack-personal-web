@@ -14,6 +14,7 @@ function Navbar() {
         <div className="lg:block hidden">
           <ul className="flex flex-row items-center space-x-12 text-sky-500">
             <NavList href="/">Home</NavList>
+            <NavList href="/about">About</NavList>
             <NavList href="/achievements">Achievements</NavList>
             <NavList href="/skills">Skills</NavList>
             <NavList href="/projects">Projects</NavList>
@@ -35,6 +36,11 @@ function Navbar() {
                 <Menu.Item>
                   {({ active }) => (
                     <NavLink className={`px-2 py-1 rounded-md ${active ? "bg-sky-200" : ""}`} to="/">Home</NavLink>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
+                    <NavLink className={`px-2 py-1 rounded-md ${active ? "bg-sky-200" : ""}`} to="/about">About</NavLink>
                   )}
                 </Menu.Item>
                 <Menu.Item>
