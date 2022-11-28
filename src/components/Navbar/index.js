@@ -22,7 +22,7 @@ function Navbar() {
           </ul>
         </div>
         <Menu as="div" className="lg:hidden relative inline-block text-left">
-          <Menu.Button><FaAlignJustify className="fill-sky-800" size={24} /></Menu.Button>
+          <Menu.Button as="button" id="navbar-menu-button" ><FaAlignJustify className="fill-sky-800" size={24} /></Menu.Button>
           <Transition
             enter="transition duration-100 ease-out"
             enterFrom="transform scale-95 opacity-0"
