@@ -26,9 +26,6 @@ function Skills() {
           <div className="bg-sky-200 p-6 rounded-lg flex max-w-sm gap-4">
             <SiPhp className="fill-sky-800" size={48} />
           </div>
-          <div className="bg-sky-200 p-6 rounded-lg flex max-w-sm gap-4">
-            <SiLua className="fill-sky-800" size={48} />
-          </div>
         </div>
       </div>
       <div className="flex flex-col gap-4 justify-center">
