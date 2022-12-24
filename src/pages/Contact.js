@@ -4,7 +4,6 @@ import {
   SiGmail,
   SiInstagram,
   SiTelegram,
-  SiTwitter,
   SiWhatsapp,
 } from "react-icons/si";
 import ContactCard from "../components/ContactCard";
@@ -19,9 +18,6 @@ function Contact() {
         <div className="flex gap-12 flex-wrap justify-center">
           <ContactCard link="https://instagram.com/raihanadamstagram">
             <SiInstagram className="fill-sky-800" size={48} />
-          </ContactCard>
-          <ContactCard link="https://twitter.com/naonsiaanying">
-            <SiTwitter className="fill-sky-800" size={48} />
           </ContactCard>
           <ContactCard link="https://www.facebook.com/hallwack">
             <SiFacebook className="fill-sky-800" size={48} />
