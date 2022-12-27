@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import PortofolioCard from '../components/PortofolioCard';
 import { portofolios } from "../data/data";
 

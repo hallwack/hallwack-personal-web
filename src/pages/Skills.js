@@ -4,7 +4,6 @@ import {
   SiGit,
   SiJavascript,
   SiLaravel,
-  SiLua,
   SiNeovim,
   SiPhp,
   SiReact,

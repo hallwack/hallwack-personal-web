@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { FaAlignJustify, FaTimes } from "react-icons/fa"
+import { FaAlignJustify } from "react-icons/fa"
 import NavList from "../NavList";
 import { NavLink } from "react-router-dom";
 
